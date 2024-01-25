@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RESTFUL Test Suite,,,,25-01-2024 14:37:49,25-01-2024 14:37:55,6.030s,PASSED
+,,,,,,,
+Test Cases/iGLO - Training API/Authentication/Get Token Post,,,,25-01-2024 14:37:49,25-01-2024 14:37:55,5.676s,PASSED
+"sendRequestAndVerify(findTestObject(""Token_Fiona_FIF"", [""user"":""fiona"", ""pass"":""zQe9Rk4qqvzs3Xyz""]))",,,,25-01-2024 14:37:49,25-01-2024 14:37:54,5.103s,PASSED
+"sendRequestAndVerify(findTestObject(""PostData"", [""Ltoken"":token]))",,,,25-01-2024 14:37:54,25-01-2024 14:37:55,0.438s,PASSED

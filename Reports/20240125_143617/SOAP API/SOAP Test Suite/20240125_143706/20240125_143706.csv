@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SOAP Test Suite,,,,25-01-2024 14:38:06,25-01-2024 14:38:11,5.502s,PASSED
+,,,,,,,
+Test Cases/SOAP API/Chaining_SOAP,,,,25-01-2024 14:38:06,25-01-2024 14:38:11,5.207s,PASSED
+"sendRequestAndVerify(findTestObject(""SOAP Service/SOAPDemoSoap/AddInteger"", [""var1"":""8"", ""var2"":""8""]))",,,,25-01-2024 14:38:06,25-01-2024 14:38:10,3.603s,PASSED
+"sendRequestAndVerify(findTestObject(""SOAP Service/SOAPDemoSoap/DivideInteger"", [""total_sum"":SOAP_Total, ""int_1"":""2""]))",,,,25-01-2024 14:38:10,25-01-2024 14:38:11,1.446s,PASSED

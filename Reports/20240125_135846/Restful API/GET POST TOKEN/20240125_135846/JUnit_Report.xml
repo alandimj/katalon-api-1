@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GET POST TOKEN" time="5.532" tests="1" failures="0" errors="0">
+   <testsuite name="GET POST TOKEN" tests="1" failures="0" errors="0" time="5.532" skipped="0" timestamp="25-01-2024T13:59:10" hostname="1327 - LAPTOP-5HF3JFJP" id="Test Suites/Restful API/GET POST TOKEN">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\1327\\git\\katalon-api-1\\Reports\\20240125_135846\\Restful API\\GET POST TOKEN\\20240125_135846"/>
+         <property name="logFiles" value="C:\\Users\\1327\\git\\katalon-api-1\\Reports\\20240125_135846\\Restful API\\GET POST TOKEN\\20240125_135846\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="1327 - LAPTOP-5HF3JFJP"/>
+         <property name="hostAddress" value="192.168.77.2"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+      </properties>
+      <testcase name="Test Cases/iGLO - Training API/Authentication/Get Token Post" time="5.121" classname="Test Cases/iGLO - Training API/Authentication/Get Token Post" status="PASSED">
+         <system-out><![CDATA[25-01-2024T13:59:11 - [TEST_CASE][PASSED] - Test Cases/iGLO - Training API/Authentication/Get Token Post: Test Cases/iGLO - Training API/Authentication/Get Token Post
+
+25-01-2024T13:59:11 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Token_Fiona_FIF", ["user":"fiona", "pass":"zQe9Rk4qqvzs3Xyz"])): Send request and verify the response successfully
+
+25-01-2024T13:59:14 - [MESSAGE][INFO] - HAR: C:\Users\1327\git\katalon-api-1\Reports\20240125_135846\Restful API\GET POST TOKEN\20240125_135846\requests\main\0.har
+
+25-01-2024T13:59:14 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+25-01-2024T13:59:14 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+25-01-2024T13:59:14 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+25-01-2024T13:59:14 - [TEST_STEP][PASSED] - token = getElementPropertyValue(response, "result.accessToken"): null
+
+25-01-2024T13:59:15 - [TEST_STEP][PASSED] - out.println(token): null
+
+25-01-2024T13:59:15 - [MESSAGE][PASSED] - Verify response successfully
+
+25-01-2024T13:59:15 - [MESSAGE][PASSED] - All validation steps have been passed
+
+25-01-2024T13:59:15 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+25-01-2024T13:59:15 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("PostData", ["Ltoken":token])): Send request and verify the response successfully
+
+25-01-2024T13:59:16 - [MESSAGE][INFO] - HAR: C:\Users\1327\git\katalon-api-1\Reports\20240125_135846\Restful API\GET POST TOKEN\20240125_135846\requests\main\1.har
+
+25-01-2024T13:59:16 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+25-01-2024T13:59:16 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+25-01-2024T13:59:16 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+25-01-2024T13:59:16 - [TEST_STEP][PASSED] - out.println(token): null
+
+25-01-2024T13:59:16 - [TEST_STEP][PASSED] - getdraftid = getElementPropertyValue(response, "result.draftId"): null
+
+25-01-2024T13:59:16 - [TEST_STEP][PASSED] - out.println(getdraftid): null
+
+25-01-2024T13:59:16 - [MESSAGE][PASSED] - Verify response successfully
+
+25-01-2024T13:59:16 - [MESSAGE][PASSED] - All validation steps have been passed
+
+25-01-2024T13:59:16 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-01-2024T13:59:10 - [TEST_SUITE][PASSED] - GET POST TOKEN: Test Cases/iGLO - Training API/Authentication/Get Token Post]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
